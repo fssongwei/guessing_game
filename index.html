@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>"Suger, Fiber, Fat" Guessing Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="raffle.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>"Suger, Fiber, Fat" Guessing Game</h1>
+		<p>Select a category to begin</p>
+		<div class="button-group">
+			<button class="category-button" onclick="selectCategory('sugar')" data-category="sugar">Sugar</button>
+			<button class="category-button" onclick="selectCategory('fiber')" data-category="fiber">Fiber</button>
+			<button class="category-button" onclick="selectCategory('fat')" data-category="fat">Fat</button>
+		</div>
+		<button id="raffle-button" onclick="enterRaffle()">Go</button>
+		<p id="result"></p>
+	</div>
+</body>
+</html>
